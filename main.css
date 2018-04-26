@@ -1,0 +1,9 @@
+nav li {
+	list-style-type: none;
+	display: inline-block;
+	
+}
+.banner {
+	background-color:#CCC;
+	border: 2px dotted silver;
+}
