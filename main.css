@@ -63,6 +63,7 @@ main{
 .well {
 	border-radius: 10px;
 	background-color: #DEB5AD;
+	border: 2px dotted grey;
 }
 .navigation-area {
 	display: flex;
