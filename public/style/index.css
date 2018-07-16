@@ -1,0 +1,97 @@
+body {
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+	background-image: url('../images/background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: rgb(232,233,243);
+}
+.banner {
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+}
+.main {
+	display: flex;
+	justify-content: space-between;
+	background-color: rgba(29,45,68, 0.8);
+	padding-bottom: 100px;
+}
+
+.nav {
+	margin-left: 60px;
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+#js-area {
+	flex: 6;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	margin-top: 100px;
+	padding: 0 20px;
+}
+footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: rgba(29,45,68, 0.8);
+	z-index: 1;
+	font-size: 20px;
+}
+
+#foot {
+	padding-top: 5px;
+
+}
+#friendly h4{
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+#intro {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+button {
+	margin: 10px 0;
+	background-color: rgba(232,233,243, .9);
+	font-size: 20px;
+	padding: 20px 0;
+	border: none;
+}
+header {
+	width: 100%;
+	border-bottom: ;
+}
+.contact-details {
+	font-size: 24px;
+	display: flex;
+	justify-content: space-between;
+	font-weight: 700;
+
+}
+.address {
+	margin-right: 300px;
+}
+.info {
+	font-weight: 300;
+}
+a{
+	color: rgb(232,233,243);
+}
+.header{
+	font-size: 30px;
+	font-weight: 800;
+}
+.phone {
+	margin-top: 15px;
+}
+

@@ -1,0 +1,16 @@
+body {
+	padding: 10px 30px;
+}
+#js-area {
+	display: flex;
+	justify-content: flex-end;
+}
+.header {
+	text-align: center;
+}
+#js-area,
+#introduction,
+#skillset,
+#work {
+	margin-top: 30px;
+}
