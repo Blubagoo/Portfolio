@@ -13,7 +13,6 @@ app.use(express.static('public'));
 
 app.get('/', ()=> {
 	console.log('sending html');
-
 })
 
 
