@@ -1,59 +1,63 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Portfolio of Jim Tisdale</title>
+	<title>Jim Tisdale's Portfolio</title>
 	<meta charset="utf-8">
+	<meta property="og:image" content="../images/headshot.jpg">
 	<meta name="description" content="Porfolio for Jim Tisdale and his projects">
 	<meta name="keywords" content="Portfolio Jim Tisdale CSS JQuery Javascript Api-Intergration">
 	<meta name="viewport" content="width=device-width">
-	<link href="style/index.css" rel="stylesheet" type="text/css">
+	<link href="style/reset.css" rel="stylesheet" type="text/css">
+	<link href="style/main.css" rel="stylesheet" type="text/css">
 	<script src="https://use.fontawesome.com/b3a6ffb072.js"></script>
-	<link href="https://fonts.googleapis.com/css?family=Black+Han+Sans|Raleway" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab|Titillium+Web" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>	
 	<div class="body">
-		<header role="banner" id="one" hidden>
-			<div class="navigation-area">
-				<h1 class="banner well">Jim Tisdale</h1>
-			</div>
-		</header>
 		<main role="main" >
 			<div class="main">			
-				<nav role="navigation" class="nav well" hidden>
+				<nav role="navigation" class="nav top-head" hidden>
 					<button id="contact-details">Contact</button>  	
 					<button id="introduction">Intro</button>
 					<button id="skillset">Skillset</button>
 					<button id="work-exp">Experience</button>
 					<button id="projects">Projects</button>
 				</nav> 			
-				<div id="js-area" class="well" aria-live="polite" hidden>
-					<div class="contact-details">
-						<div class="address">
-							<p class="header">Jim Tisdale</p>
-							<p class="info">758 willow Rd.</p>
-							<p class="info">Slocomb, Al 36375</p>
-						</div>
-						<div class="phone">
-							<p class="info">P: (334)500-0066</p>
-							<p class="info">E: JCTisdale1988@gmail.com</p>
-							<p class="info">DOB: 10/07/1988</p>
+				<div id="js-area" aria-live="polite">
+					<div class="intro-box" hidden>
+						<img id="headshot" src="../images/headshot.jpg" alt="Jim Tisdale" />
+						<div class="contact-details">
+							<div class="address">
+								<p class="header">Jim Tisdale</p>
+								<p class="info">758 willow Rd.</p>
+								<p class="info">Slocomb, Al 36375</p>
+							</div>
+							<div class="phone">
+								<p class="info">P: (334)500-0066</p>
+								<p class="info">E: JCTisdale1988@gmail.com</p>
+								<p class="info">DOB: 10/07/1988</p>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</main>
 		<footer role="contentinfo" class="well">
-			<div class="intro-text">
-				<h2>
-			<div class="enter-btn">
-				<button id="enter-btn">Enter</button>
-			</div>
-			<div id="foot" hidden>
-				<a href="http://www.github.com/blubagoo" target="_blank"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a>
-				<a href="https://www.linkedin.com/in/jim-tisdale-a78a73140/" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
-			</div>
-			<div id="friendly" hidden>
-				<h4>Need a printer friendly version of my resumé? Click <a href="Resume.html">here</a>.</h4>
+			<div class="intro-div">
+				<div class="intro-text">
+					<h2 class="banner">"Don't panic!" - Douglas Adams<br>The Hitchhiker's Guide to The Galaxy</h2>
+				</div>
+				<div class="enter-btn">
+					<i class="fa fa-sign-in" id="enter-btn"></i>
+				</div>
+				<div id="foot" hidden>
+					<a href="http://www.github.com/blubagoo" target="_blank"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a>
+					<a href="https://www.linkedin.com/in/jim-tisdale-a78a73140/" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+				</div>
+				<div id="friendly">
+					<h4>Need a printer friendly version of my resumé? Click <a href="Resume.html">here</a>.</h4>
+				</div>
 			</div>
 		</footer>
 	<script

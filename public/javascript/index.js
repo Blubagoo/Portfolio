@@ -1,8 +1,5 @@
 [
-    "../images/calmbg.jpg",
-    "../images/calmbg1.jpg",
-    "../images/calmbg2.jpg",
-    "../images/calmbg3.jpg"
+    "../images/headshot.jpg"
 ].forEach(function(url){
     new Image().src = url;
 });
@@ -29,18 +26,15 @@ function listenForEvent() {
 	});
 	$('#enter-btn').on('click', (e)=> {
 		e.preventDefault();
-		$('.body').css("background-image","url('images/calmbg2.jpg')");
-		$('.body').css("background-image","url('images/calmbg3.jpg')");
 		$('.enter-btn').hide();
-		$('header').show();
+		$('.banner').hide();
+		$('.intro-box').show();
 		$('#js-area').show();
+		$('footer').show();
 		$('nav').css({
 			"display": "flex",
 			"justify-content": "space-around",
-		})
-		$('button').css({
-			"background-color": "rgba(242, 236, 223, 0.7)"
-		})
+		});
 	})
 }
 
