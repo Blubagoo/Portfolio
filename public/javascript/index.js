@@ -59,7 +59,7 @@ function listenForEvent() {
 		$('.intro-div').hide();
 		$('.body-head').show();
 		$('#foot').show();
-		$('#friendly').show();
+		// $('#friendly').show();
 		$('.contact-box').show();
 		$('#js-area').show();
 		$('footer').show();
@@ -69,6 +69,7 @@ function listenForEvent() {
 		$('#work-exp').hide();
 		$('#contact-details').hide();
 		$('#project-btn').hide();
+		$('#edu-btn').hide();
 
 	})
 	$('.btn-div').hover(() => {
@@ -106,11 +107,14 @@ function listenForEvent() {
 		$('#project-btn').css({
 			"display": "none"
 		});
-		$('#text-hide').css({
+		$('#edu-btn').css({
 			"display": "none"
 		});
+		$('#text-hide').css({
+			"display": "none"
+		});			
 	})
 }
 
-
 $(listenForEvent);
+

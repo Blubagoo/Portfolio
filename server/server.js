@@ -14,6 +14,12 @@ app.use(express.static('public'));
 app.get('/', ()=> {
 	console.log('sending html');
 })
+app.get('/resume', (req,res) => {
+	console.log('contact made');
+	const file = __dirname + `/JimTisdaleResume.docx`;
+	console.log(__dirname +'/JimTisdaleResume.docx');
+	res.download("C:/Users/Jim/Desktop/Projects In Development/Portfolio/server/JimTisdaleResume.docx");
+})
 
 
 
