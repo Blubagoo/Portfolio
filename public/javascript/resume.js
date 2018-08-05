@@ -2,19 +2,34 @@ function generateWorkExperience() {
 	return `
 			<section role="region">
 				<div class="work-exp">
-					<h2 class="header">Work Experience</h2>
-					<ul class="info">
-						<li class="header">HVAC Private Contractor</li>
-						<li class="info sub-text">Self Employed</li>
-							<ul>
-								<li><span class="info">Sales Consultant</span> - To Duties include running generated sales leads through <a href="http://www.homeadvisor.com">Homeadvisor.com</a>. I ran all calls generated except when there was an overflow of business. Had a closing rate of around 75%. Sold approximately $150,000 inside of six-month period. In charge of hiring new sales technicians and running the business when the owner was busy with QA. Also in charge of approximately 50% of service calls that involved troubleshooting a broken unit.</li>
-									<li class="date"><span class="info indent">From</span> 05/01/17 - To 02/24/18</li>
-									<li><span class="info">Sales/Service Technician</span> - Duties include running generated sales leads through in-house telemarketing. Responded promptly to all calls in a professional manner to either P.M. HVAC equipment or fix broken units. Had a closing rate of around 60% and sold roughly $100,000 in a seven-month period. Tasked with helping on installations from time to time. Also on call during the entire duration of being a contractor.</li>
-									<li class="date"><span class="info indent">From</span> 06/01/16 - To 05/01/17</li>
-							</ul>
-						<li class="header">Management</li>
-						<li class="info">Chipotle <span class="sub-text">Service Manger</span>, Pizza Hut <span class="sub-text">Shift Leader</span></li>
-					</ul>
+					
+					<p class="header">HVAC Private Contractor</p>
+					<p class="info sub-text">Self Employed</p>
+					
+					<p><span class="info indent">Sales Consultant</span> - To Duties include running generated sales leads through <a href="http://www.homeadvisor.com">Homeadvisor.com</a>. I ran all calls generated except when there was an overflow of business. Had a closing rate of around 75%. Sold approximately $150,000 inside of six-month period. In charge of hiring new sales technicians and running the business when the owner was busy with QA. Also in charge of approximately 50% of service calls that involved troubleshooting a broken unit.</p>
+					<p class="date" align="center"><span class="info indent">From</span> 05/01/17 - <span class="info">To</span> 02/24/18</p>
+					
+					<p><span class="info indent">Sales/Service Technician</span> - Duties include running generated sales leads through in-house telemarketing. Responded promptly to all calls in a professional manner to either P.M. HVAC equipment or fix broken units. Had a closing rate of around 60% and sold roughly $100,000 in a seven-month period. Tasked with helping on installations from time to time. Also on call during the entire duration of being a contractor.</p>
+					<p class="date" align="center"><span class="info indent">From</span> 06/01/16 - <span class="info">To</span> 05/01/17</p>
+					
+					<p class="header">Food Service Industry</p>
+					<p class="header indent">Management</p>
+					<p class="info indent">Chipotle <span class="sub-text sm-text">  Service Manger</span></p>
+					<p class="info sub-text indent date">02/14 - 03/14</p>
+					<p class="info indent">Pizza Hut <span class="sub-text sm-text">  Shift Leader</span></p>
+					<p class="info sub-text indent date">2008 - 2009</p>
+					<p class="header indent">FOH/BOH Personnel</p>
+					<p class="info sub-text indent date">2008 - 2016</p><br><br>
+					<p class="info md-text indent">BWW's<span class="sub-text sm-text">  Line Cook/Trainer</span></p>
+					<p class="info indent sub-text date">03/16 - 07-16</p>
+					<p class="info md-text indent">BWW's<span class="sub-text sm-text">  Line Cook</span></p>
+					<p class="info indent sub-text date">07/15 - 09-15</p>
+					<p class="info md-text indent">Chipotle<span class="sub-text sm-text">  Service Manager</span></p>
+					<p class="info indent sub-text date">02/14 - 03/15</p>
+					<p class="info md-text indent">Old Chicago<span class="sub-text sm-text">  Line Cook/Prep/Trainer</span></p>
+					<p class="info indent sub-text date">07/12 - 03/14</p>
+					<p class="info md-text indent">Applebees<span class="sub-text sm-text">  Line Cook</span></p>
+					<p class="info indent sub-text date">01/12 - 07/12</p>
 				</div>
 			</section>`
 } 
