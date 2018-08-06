@@ -45,8 +45,7 @@ function listenForEvent() {
 			<h1 role="banner" class="banner" align="center">Education</h1>
 		`);
 	})
-	$('#enter-btn').on('click', (e)=> {
-		e.preventDefault();
+	setTimeout(()=> {
 		$('.intro-div').hide();
 		$('.body-head').show();
 		$('#foot').show();
@@ -61,8 +60,7 @@ function listenForEvent() {
 		$('#contact-details').hide();
 		$('#project-btn').hide();
 		$('#edu-btn').hide();
-
-	})
+	}, 1000 * 4);
 	$('.btn-div').hover(() => {
 		$('#text-hide').show();
 		$('#introduction').css({
