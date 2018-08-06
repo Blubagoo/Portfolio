@@ -161,9 +161,17 @@ function generateEducation() {
 	return `
 		<div class="edu">
 			<div class="school">
-				<p class="header">Thinkful.Com</p>
+				<p class="header">Thinkful.Com - Remote</p>
 				<p class="info indent">"Web Development Fundamentals;" "The Command Line, Git, and Github;" "Asynchronous Client Side Apps;"
 					"Server-side programming with Javascript;" "Learn React;" "Advanced Topics"</p>
-				<p class="info indent"><span class="header">From</span> 02/24/2018 - <span class="header">To</span> 08/07/2018
+				<p class="info indent date sm-text">02/24/2018 - 08/07/2018</p>
+				<p class="header">Fortis College - Dothan, AL</p>
+				<p class="info indent">HVAC-R Technical Training</p>
+				<p class="info indent date sm-text">09/2015 - 02/2016</p>
+				<p class="header">Daniel 1 Academy</p>
+				<p class="info indent sub-text">High School Diploma</p>
+				<p class="info indent sub-text date">Class of 2007</p>
+			</div>
+		</div>
 	`
 }
