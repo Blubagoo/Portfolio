@@ -397,6 +397,24 @@ a {
 	.projects {
 		margin-top: 100px;
 	}
+	#contact-details:hover {
+	padding-left: 200px;
+	}
+	#introduction:hover {
+		padding-left: 200px;
+	}
+	#skillset:hover {
+		padding-left: 200px;
+	}
+	#work-exp:hover{
+		padding-left: 200px;
+	}
+	#project-btn:hover {
+		padding-left: 200px;
+	}
+	#edu-btn:hover {
+		padding-left: 200px;
+	}
 }
 
 @media only screen and (min-width: 1400px) {
