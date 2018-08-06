@@ -307,12 +307,19 @@ a {
 .foot {
 	display: none;
 }
+@media only screen and (min-height: 1000px) {
+	#headshot {
+		height: auto;
+		width: 300px;
+		margin-left: 25px;
+	}
+}
 
 @media only screen and (min-width: 640px) {
 	#headshot {
 		height: auto;
-		width: 400px;
-		margin-left: 75px;
+		width: 300px;
+		margin-left: 25px;
 	}
 	.thumbnail,
 	.pic-container {
@@ -329,7 +336,7 @@ a {
 	.work-exp,
 	.skillset,
 	.school {
-		margin:75px 250px;
+		margin:50px 75px;
 	}
 	.btn {
 		font-size: 30px;
@@ -362,7 +369,7 @@ a {
 	}
 	.contact-details {
 		margin-right: 100px;
-		margin-top: 100px;
+		margin-top: 50px;
 	}
 	.link {
 		margin-bottom: 50px;

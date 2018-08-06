@@ -74,7 +74,7 @@ function generateIntroduction() {
 				Please feel free share your success stories, or better yet, 
 				share some rock-solid tips for being a better developer. 
 			</p>
-			<p class="info blogs">Blogs: <a href="https://css-tricks.com/">CSS Tricks</a>, <a href="https://www.sitepoint.com/">SitePoint</a></p>
+			<p class="info blogs">Blogs: <a href="https://css-tricks.com/" target="_blank">CSS Tricks</a>, <a target="_blank" href="https://www.sitepoint.com/">SitePoint</a></p>
 		</div>
 	`
 }
