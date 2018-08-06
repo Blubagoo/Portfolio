@@ -15,7 +15,7 @@ function generateWorkExperience() {
 					<p class="header">Food Service Industry</p>
 					<p class="header indent">Management</p>
 					<p class="info indent">Chipotle <span class="sub-text sm-text">  Service Manger</span></p>
-					<p class="info sub-text indent date">02/14 - 03/14</p>
+					<p class="info sub-text indent date">02/14 - 03/15</p>
 					<p class="info indent">Pizza Hut <span class="sub-text sm-text">  Shift Leader</span></p>
 					<p class="info sub-text indent date">2008 - 2009</p>
 					<p class="header indent">FOH/BOH Personnel</p>
