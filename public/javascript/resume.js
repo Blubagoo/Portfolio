@@ -21,9 +21,9 @@ function generateWorkExperience() {
 					<p class="header indent">FOH/BOH Personnel</p>
 					<p class="info sub-text indent date">2008 - 2016</p><br><br>
 					<p class="info md-text indent">BWW's<span class="sub-text sm-text">  Line Cook/Trainer</span></p>
-					<p class="info indent sub-text date">03/16 - 07-16</p>
+					<p class="info indent sub-text date">03/16 - 07/16</p>
 					<p class="info md-text indent">BWW's<span class="sub-text sm-text">  Line Cook</span></p>
-					<p class="info indent sub-text date">07/15 - 09-15</p>
+					<p class="info indent sub-text date">07/15 - 09/15</p>
 					<p class="info md-text indent">Chipotle<span class="sub-text sm-text">  Service Manager</span></p>
 					<p class="info indent sub-text date">02/14 - 03/15</p>
 					<p class="info md-text indent">Old Chicago<span class="sub-text sm-text">  Line Cook/Prep/Trainer</span></p>
