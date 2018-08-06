@@ -49,7 +49,7 @@ function listenForEvent() {
 		$('.intro-div').hide();
 		$('.body-head').show();
 		$('#foot').show();
-		// $('#friendly').show();
+		$('#friendly').show();
 		$('.contact-box').show();
 		$('#js-area').show();
 		$('footer').show();
@@ -61,6 +61,7 @@ function listenForEvent() {
 		$('#project-btn').hide();
 		$('#edu-btn').hide();
 	}, 1000 * 4);
+
 	$('.btn-div').hover(() => {
 		$('#text-hide').show();
 		$('#introduction').css({
@@ -107,6 +108,7 @@ function listenForEvent() {
 		});			
 	})
 }
+
 
 $(listenForEvent);
 
