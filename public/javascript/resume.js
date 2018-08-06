@@ -6,11 +6,11 @@ function generateWorkExperience() {
 					<p class="header">HVAC Private Contractor</p>
 					<p class="info sub-text">Self Employed</p>
 					
-					<p><span class="info indent">Sales Consultant</span> - To Duties include running generated sales leads through <a href="http://www.homeadvisor.com">Homeadvisor.com</a>. I ran all calls generated except when there was an overflow of business. Had a closing rate of around 75%. Sold approximately $150,000 inside of six-month period. In charge of hiring new sales technicians and running the business when the owner was busy with QA. Also in charge of approximately 50% of service calls that involved troubleshooting a broken unit.</p>
-					<p class="date" align="center"><span class="info indent">From</span> 05/01/17 - <span class="info">To</span> 02/24/18</p>
+					<p class="sm-text"><span class="info sm-text indent">Sales Consultant</span> - To Duties include running generated sales leads through <a href="http://www.homeadvisor.com">Homeadvisor.com</a>. I ran all calls generated except when there was an overflow of business. Had a closing rate of around 75%. Sold approximately $150,000 inside of six-month period. In charge of hiring new sales technicians and running the business when the owner was busy with QA. Also in charge of approximately 50% of service calls that involved troubleshooting a broken unit.</p>
+					<p class="date sm-text" align="center"><span class="info indent">From</span> 05/01/17 - <span class="info">To</span> 02/24/18</p>
 					
-					<p><span class="info indent">Sales/Service Technician</span> - Duties include running generated sales leads through in-house telemarketing. Responded promptly to all calls in a professional manner to either P.M. HVAC equipment or fix broken units. Had a closing rate of around 60% and sold roughly $100,000 in a seven-month period. Tasked with helping on installations from time to time. Also on call during the entire duration of being a contractor.</p>
-					<p class="date" align="center"><span class="info indent">From</span> 06/01/16 - <span class="info">To</span> 05/01/17</p>
+					<p class="sm-text"><span class="info sm-text indent">Sales/Service Technician</span> - Duties include running generated sales leads through in-house telemarketing. Responded promptly to all calls in a professional manner to either P.M. HVAC equipment or fix broken units. Had a closing rate of around 60% and sold roughly $100,000 in a seven-month period. Tasked with helping on installations from time to time. Also on call during the entire duration of being a contractor.</p>
+					<p class="date sm-text" align="center"><span class="info indent">From</span> 06/01/16 - <span class="info">To</span> 05/01/17</p>
 					
 					<p class="header">Food Service Industry</p>
 					<p class="header indent">Management</p>
@@ -83,7 +83,7 @@ function generateProjects() {
 			<div class="projects">
 				<div class="pic-container">
 					<div class="overlay white sm-text">
-						<p class="header o-header md-text">Flow-State</p>
+						<p class="o-header md-text">Flow-State</p>
 						<p class="info md-text">A better way to work</p>
 						<p class="info sm-text o-footer">Created with: 
 							<span class="info xsm-text">HTML5, CSS3, Javascript ES6, Asynchronous AJAX calls, API Integration,
@@ -97,7 +97,7 @@ function generateProjects() {
 				</div>
 				<div class="pic-container">
 					<div class="overlay white darker sm-text">
-						<p class="header o-header md-text">Sing'N'Go</p>
+						<p class="o-header md-text">Sing'N'Go</p>
 						<p class="info md-text" align="center">Get your favorite artist's lyrics and showtimes!</p>
 						<p class="info sm-text o-footer">Created with: <span class="info xsm-text">HTML5, CSS3, Javascript ES6, Asynchronous AJAX calls, API Integration</span></p>
 						<p class="info xsm-text link" align="center"><a href="https://blubagoo.github.io/singngo/">Check it out!</a></p>
@@ -108,7 +108,7 @@ function generateProjects() {
 				</div>
 				<div class="pic-container">
 					<div class="overlay white darker sm-text">
-						<p class="header o-header md-text">Quiz App</p>
+						<p class="o-header md-text">Quiz App</p>
 						<p class="info md-text">Test your gamer knowledge</p>
 						<p class="info sm-text o-footer">Created with: <span class="info xsm-text">HTML5, CSS3, Javascript</span></p>
 						<p class="info xsm-text link" align="center"><a href="https://repl.it/@JimTisdale/Quiz-App">Check it out!</a></p>

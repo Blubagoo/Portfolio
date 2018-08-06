@@ -307,30 +307,39 @@ a {
 .foot {
 	display: none;
 }
-@media only screen and (min-height: 1000px) {
+@media only screen and (min-height: 1000px) and	(min-width: 640px) {
 	#headshot {
 		height: auto;
 		width: 300px;
 		margin-left: 25px;
 	}
-}
-
-@media only screen and (min-width: 640px) {
-	#headshot {
-		height: auto;
-		width: 300px;
-		margin-left: 25px;
+	.o-footer {
+		padding-bottom: 40px;
+		text-align: center;
+	}
+	#enter-btn {
+		padding-top: 300px;
+		width: 400px;
 	}
 	.thumbnail,
 	.pic-container {
 		width: 450px;
 		height: 275px;
 	}
-	.foot {
-		margin-top: 800px;
+	.xsm-text {
+		font-size: 16px;
 	}
-	.body {
-		height: 900px;
+	.sm-text {
+		font-size: 18px;
+	}
+	.md-text {
+		font-size: 20px;
+	}
+	.o-header {
+		padding-top: 20px;
+	}
+	.header {
+		font-size: 35px;
 	}
 	#bio,
 	.work-exp,
@@ -338,34 +347,11 @@ a {
 	.school {
 		margin:50px 75px;
 	}
-	.btn {
-		font-size: 30px;
+	.foot {
+		margin-top: 800px;
 	}
-	.xsm-text {
-		font-size: 18px;
-	}
-	.sm-text {
-		font-size: 24px;
-	}
-	.md-text {
-		font-size: 30px;
-	}
-	.overlay {
-		justify-content: space-around;
-	}
-	.o-header {
-		font-size: 60px;
-		padding-top: 60px;
-	}
-	.o-footer {
-		padding-bottom: 40px;
-		text-align: center;
-	}
-	.header {
-		font-size: 60px;
-	}
-	.info {
-		font-size: 25px;
+	.body {
+		height: 900px;
 	}
 	.contact-details {
 		margin-right: 100px;
@@ -377,14 +363,54 @@ a {
 	.overlay a:visited {
 		color: white;
 	}
+	.btn {
+		font-size: 30px;
+	}
 
+}
+@media only screen and (min-width: 1000px) and (min-height: 1000px) {
+	#headshot {
+		height: auto;
+		width: 400px;
+		margin-left: 50px;
+	}
+	.contact-details {
+		margin-top: 75px;
+	}
+	.banner {
+		font-size: 70px
+	}
+	.header {
+		font-size: 50px;
+	}
+	.info {
+		font-size: 40px;
+	}
+	.foot {
+		margin-top: 500px;
+	}
+	.btn {
+		font-size: 40px;
+	}
+	.sm-text {
+		font-size: 34px;
+	}
 }
 
 @media only screen and (min-width: 1200px) {
+	#headshot {
+		height: auto;
+		width: 400px;
+		margin-left: 50px;
+	}	
 	.thumbnail,
 	.pic-container {
 		width: 600px;
 		height: 350px;
+	}
+	#enter-btn {
+		width: 600px;
+		padding-top: 200px;
 	}
 	.body {
 		height: 1600px;
@@ -392,11 +418,29 @@ a {
 	.projects {
 		justify-content: space-between;
 	}
-	.btn {
-		font-size: 28px;
+	.contact-details {
+		margin-top: 75px;
+	}
+	.banner {
+		font-size: 70px
+	}
+	.header {
+		font-size: 50px;
+	}
+	.info {
+		font-size: 40px;
 	}
 	.foot {
-		margin-top: 200px;
+		margin-top: 500px;
+	}
+	.btn {
+		font-size: 40px;
+	}
+	.sm-text {
+		font-size: 34px;
+	}
+	.foot {
+		margin-top: 100px;
 	}
 	.projects {
 		margin-top: 100px;
@@ -422,7 +466,14 @@ a {
 }
 
 @media only screen and (min-width: 1400px) {
-
+	#headshot {
+		height: auto;
+		width: 600px;
+		margin-left: 50px;
+	}
+	.foot {
+		margin-top: 300px;
+	}	
 	.projects {
 		flex-direction: row;
 	}
